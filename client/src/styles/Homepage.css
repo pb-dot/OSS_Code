@@ -1,0 +1,76 @@
+.banner-img {
+  max-height: 10cm;
+}
+
+
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+ .card {
+  width: 18rem;
+}
+ .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ .card-price {
+  font-weight: bold;
+}
+.home-page button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+
+ .card img:hover {
+  transform: scale(0.9);
+}
+
+ .card-img-top {
+  height: 250px !important;
+}
+/* ==================
+filters
+============== */
+.filters h4 {
+  margin-top: 100px;
+  color: gray ;
+  border-bottom: 3px solid white;
+}
+
+.ant-checkbox-wrapper:first-of-type {
+  margin-left: 8px;
+}
+
+.ant-checkbox-wrapper {
+  margin: 2px;
+}
+.ant-radio-wrapper {
+  margin-bottom: 5px !important;
+  margin-left: 10px;
+}
+
+.filters button {
+  background-color: grey;
+  color:white;
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.loadmore {
+  color: var(--color-subtext)!important;
+  font-weight: bold;
+  font-size: 20px !important;
+  margin-left: 0.5rem;
+}
