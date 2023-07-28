@@ -31,9 +31,9 @@ body {
 }
 /*filters*/
 .filter-content{
-  color: whitesmoke;
+  color: whitesmoke!important;
   font-family: var(--font-family);
-  font-size: 20px;
+  font-size: 20px!important;
   font-weight: 700;
 }
 
@@ -73,8 +73,9 @@ body {
 .navbar-brand,.nav-item,.nav-link  {
     color: #fff !important;
     font-family: var(--font-family);
-    text-transform: capitalize;
-    font-size: 18px;
+   
+    font-size: 18px!important
+    ;
 }
 .navbar {
 
@@ -115,7 +116,7 @@ body {
 }
 
 #caRt{
-  margin-top: 12px;
+  margin-top: 15px;
 }
 
 
@@ -152,7 +153,7 @@ body {
 /* ========================================= */
 /* =========contact us ========= */
 .contactus {
-  margin: 0;
+  margin: 20px;
   padding: 0;
   
   display: flex;

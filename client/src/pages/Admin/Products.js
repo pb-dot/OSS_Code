@@ -40,7 +40,7 @@ const Products = () => {
                   to={`/dashboard/admin/product/${p.slug}`}
                   className="product-link"
                 >
-                  <div className="hd mb-3" style={{ width: "18rem" }}>
+                  <div className="hd m-2" style={{ width: "18rem" }}>
                     <div className="card-body ">
                       <h5 className="card-title m-2" style={{ color: "white" }}>
                         {p.name}
